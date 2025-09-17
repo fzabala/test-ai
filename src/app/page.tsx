@@ -21,6 +21,9 @@ export default function Home() {
         </ol>
 
         <div className={styles.ctas}>
+          <a className={styles.secondary} href="/about">
+            Go to About
+          </a>
           <a
             className={styles.primary}
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
