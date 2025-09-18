@@ -25,6 +25,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <nav style={{
+          backgroundColor: '#333',
+          padding: '10px 0',
+          marginBottom: '20px',
+          display: 'flex',
+          justifyContent: 'center',
+          gap: '20px',
+        } as React.CSSProperties}>
+          <a href="/" style={{ color: 'white', textDecoration: 'none', fontSize: 18 } as React.CSSProperties}>Home</a>
+          <a href="/contact" style={{ color: 'white', textDecoration: 'none', fontSize: 18 } as React.CSSProperties}>Contact</a>
+        </nav>
         {children}
       </body>
     </html>
