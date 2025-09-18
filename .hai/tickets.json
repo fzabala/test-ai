@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "implement authentication using google social login, show a basic information for the authenticated used and persist data in any way, create a .md file with implementations and include extra steps (if needed, like setup env vars, create account, set tokens)",
+    "status": "applied",
+    "prompt": "\nYou are a code implementation assistant. Your task is to DIRECTLY IMPLEMENT the following requirement by creating and modifying files.\n\nREQUIREMENT: \"implement authentication using google social login, show a basic information for the authenticated used and persist data in any way, create a .md file with implementations and include extra steps (if needed, like setup env vars, create account, set tokens)\"\n\nCRITICAL INSTRUCTIONS:\n- You MUST actually create and modify files, not just suggest changes\n- Use the exact file paths provided\n- Write complete, working code\n- Do not ask for confirmation or explain - just implement\n- If it's a Next.js project, use Next.js conventions (app router, next/link, etc.)\n- If it's a React project, use React Router conventions\n- Create all necessary directories and files\n- Make the code functional and ready to run\n\nIMPLEMENTATION FORMAT:\n1. Create/modify files with exact paths\n2. Write complete code for each file\n3. Ensure all imports and dependencies are correct\n4. Make sure the code works immediately\n\nDO NOT:\n- Ask questions or request clarification\n- Suggest alternatives or ask for confirmation\n- Just provide explanations without implementing\n- Leave TODO comments or incomplete code\n\nIMPLEMENT THE REQUIREMENT NOW.\n"
+  },
+  {
+    "id": 2,
+    "title": "implement authentication using google social login, show a basic information for the authenticated used and persist data in any way, create a .md file with implementations and include extra steps (if needed, like setup env vars, create account, set tokens), after implementation validate there's no runtime error",
+    "status": "applied",
+    "prompt": "\nYou are a code implementation assistant. Your task is to DIRECTLY IMPLEMENT the following requirement by creating and modifying files.\n\nREQUIREMENT: \"implement authentication using google social login, show a basic information for the authenticated used and persist data in any way, create a .md file with implementations and include extra steps (if needed, like setup env vars, create account, set tokens), after implementation validate there's no runtime error\"\n\nCRITICAL INSTRUCTIONS:\n- You MUST actually create and modify files, not just suggest changes\n- Use the exact file paths provided\n- Write complete, working code\n- Do not ask for confirmation or explain - just implement\n- If it's a Next.js project, use Next.js conventions (app router, next/link, etc.)\n- If it's a React project, use React Router conventions\n- Create all necessary directories and files\n- Make the code functional and ready to run\n\nIMPLEMENTATION FORMAT:\n1. Create/modify files with exact paths\n2. Write complete code for each file\n3. Ensure all imports and dependencies are correct\n4. Make sure the code works immediately\n\nDO NOT:\n- Ask questions or request clarification\n- Suggest alternatives or ask for confirmation\n- Just provide explanations without implementing\n- Leave TODO comments or incomplete code\n\nIMPLEMENT THE REQUIREMENT NOW.\n"
+  },
+  {
+    "id": 3,
+    "title": "Add user authentication with JWT tokens",
+    "status": "pending",
+    "prompt": ""
+  },
+  {
+    "id": 4,
+    "title": "Implement dark mode toggle with theme persistence",
+    "status": "applied",
+    "prompt": "\nYou are a code implementation assistant. Your task is to DIRECTLY IMPLEMENT the following requirement by creating and modifying files.\n\nREQUIREMENT: \"Implement dark mode toggle with theme persistence\"\n\nCRITICAL INSTRUCTIONS:\n- You MUST actually create and modify files, not just suggest changes\n- Use the exact file paths provided\n- Write complete, working code\n- Do not ask for confirmation or explain - just implement\n- If it's a Next.js project, use Next.js conventions (app router, next/link, etc.)\n- If it's a React project, use React Router conventions\n- Create all necessary directories and files\n- Make the code functional and ready to run\n\nIMPLEMENTATION FORMAT:\n1. Create/modify files with exact paths\n2. Write complete code for each file\n3. Ensure all imports and dependencies are correct\n4. Make sure the code works immediately\n\nDO NOT:\n- Ask questions or request clarification\n- Suggest alternatives or ask for confirmation\n- Just provide explanations without implementing\n- Leave TODO comments or incomplete code\n\nIMPLEMENT THE REQUIREMENT NOW.\n"
+  }
+]
