@@ -3,15 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "next": "15.5.3",
+    "next-auth": "5.0.0-beta.20",
+    "@sendbird/chat": "^4.12.0",
+    "@sendbird/uikit-react": "^4.10.1",
+    "@sendbird/uikit-tools": "^1.6.0"
   },
   "devDependencies": {
     "typescript": "^5",
