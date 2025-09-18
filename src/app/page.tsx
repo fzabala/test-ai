@@ -45,6 +45,17 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
+        <div className={styles.socialButtons}>
+          <button type="button" className={styles.socialButton} aria-label="Continue with Google">
+            <Image src="/next.svg" alt="" width={16} height={16} aria-hidden />
+            Continue with Google
+          </button>
+          <button type="button" className={styles.socialButton} aria-label="Continue with Meta">
+            <Image src="/next.svg" alt="" width={16} height={16} aria-hidden />
+            Continue with Meta
+          </button>
+        </div>
       </main>
       <footer className={styles.footer}>
         <a
