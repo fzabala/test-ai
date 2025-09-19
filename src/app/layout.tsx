@@ -26,6 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        {/* If using Sendbird UIKit Web via CDN, include here.
+            See CHAT_SETUP.md for details. */}
       </body>
     </html>
   );
