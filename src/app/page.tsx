@@ -1,7 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
+import { auth } from "@/auth";
+import { SignInButton, SignOutButton } from "@/components/AuthButtons";
 
-export default function Home() {
+export default async function Home() {
+  const session = await auth();
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -13,12 +17,22 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <div style={{ marginTop: 16, marginBottom: 16 }}>
+          {session ? (
+            <>
+              <p>Welcome, {session.user?.name ?? session.user?.email}.</p>
+              <p>
+                Go to the <Link href="/chat">global chat</Link>.
+              </p>
+              <SignOutButton />
+            </>
+          ) : (
+            <>
+              <p>Please sign in to access the global chat.</p>
+              <SignInButton />
+            </>
+          )}
+        </div>
 
         <div className={styles.ctas}>
           <a
